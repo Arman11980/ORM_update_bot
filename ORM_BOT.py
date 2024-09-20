@@ -8,7 +8,7 @@ from config import *
 from ORM_crud_fanc import *
 import texts
 
-api = '7362522319:AAEZj-8sHRcvgS0-SqXJ6JEt_cWTO2b0D-o'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
